@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+
+    "module": "ESNext",
+    "target": "ESNext",
+
+    "lib": ["ESNext", "DOM"],
+
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "strict": true,
+    "jsx": "react-jsx",
+
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+    "skipLibCheck": true,
+
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src"]
+}
